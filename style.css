@@ -1,0 +1,61 @@
+﻿body {
+
+    font-family: Arial, sans-serif;
+
+    text-align: center;
+
+}
+
+ 
+
+.game-container {
+
+    display: grid;
+
+    grid-template-columns: repeat(4, 100px);
+
+    grid-gap: 10px;
+
+    margin: 20px auto;
+
+}
+
+ 
+
+.hole {
+
+    width: 100px;
+
+    height: 100px;
+
+    background-color: #8B4513;
+
+    border-radius: 5px;
+
+    position: relative;
+
+}
+
+ 
+
+.mole {
+
+    width: 80px;
+
+    height: 80px;
+
+background-image: url('krot.webp');
+
+background-size: cover;
+
+    border-radius: 50%;
+
+    position: absolute;
+
+    top: 10px;
+
+    left: 10px;
+
+    display: none;
+
+}
